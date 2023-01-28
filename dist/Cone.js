@@ -696,6 +696,7 @@ export var Cone;
                         if (contentItem.href === undefined) {
                             break;
                         }
+                        contentItemElement.setAttribute("rel", "me");
                         contentItemElement.setAttribute("href", contentItem.href);
                         contentItemElement.style = styleBuilder.coneListA;
                         contentItemElement.classList.push(ConeStyleClassName.themeableColor, ConeStyleClassName.themeableBackground, ConeStyleClassName.themeableTextShadow, ConeStyleClassName.themeableBorder);
